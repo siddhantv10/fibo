@@ -1,5 +1,5 @@
 # Fibonacci calculator optimization
-Implementing the fibonacci calculator using 3 different approaches and analyzing the difference in number of logic devices used. 
+Implementing the fibonacci calculator using 3 different approaches and analyzing the difference in number of logic devices used using SystemVerilog HDL. 
 
 The calculator has a negative edge asynchronous reset, takes the value of the number of the term in the fibonacci series that needs to be calculated and initialization signal as its input and returns signals done and the output generated.
 
