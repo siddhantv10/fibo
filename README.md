@@ -13,16 +13,22 @@ always block, THUS **LEADING TO THE CREATION OF EXTRA FLIP FLOPS** as expected. 
 * You can find its [RTL Design](./fibo3.pdf) here.
 * [Synthesis Report map.rpt file](./fibonacci3/output_files/fibonacci.map.rpt)
 
+![fibo3](./fibo3.png)
+
 # Optimized Approach (fibonacci2)
 To optimize the design, the output generation block of signals were removed from the always_ff block and were created as separate assign statements as a combinational circuit 
 thus avoiding the creation of the unnecessary D-Flip Flops. Also the redundand DONE state was removed from the fsm model.
 * You can find its [RTL Design](./fibo2.pdf) here.
 * [Synthesis Report map.rpt file](./fibonacci2/output_files/fibonacci2.map.rpt)
 
+![fibo2](./fibo2.png)
+
 # Function based Approach (fibonacci1)
 The final Approach removed the concept of FSM based design completely and instead used an array of registers to compute the fibonacci successively in a function block.
 * You can find its [RTL Design](./fibo1.pdf) here.
 * [Synthesis Report map.rpt file](./fibonacci1/output_files/fibo1.map.rpt)
+
+![fibo1](./fibo1.png)
 
 # Results
 All the above designs were synthesised using Quartus and synthesis report was generated which shows the following results:
