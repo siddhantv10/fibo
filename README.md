@@ -5,8 +5,7 @@ The calculator has a negative edge asynchronous reset, takes the value of the nu
 
 # Drawing a Comparative
 The basic idea behind this project was to firstly create a fibonacci calculator using the FSM Design with 3 different states namely IDLE, COMPUTE and DONE and then later 
-optimizing the overall design, the number of logic devices and Lookup tables used and area numbers by using a reducing the number of active states in the FSM and then later 
-by by creating a general function for its computation as an array.
+optimizing the overall design, the number of logic devices and Lookup tables used and area numbers by using different approaches.
 
 # The Generic Approach (fibonacci3)
 The initial generic approach includes the use of only a single always_ff block for the entire description of the module. The output signals were also generated inside the 
