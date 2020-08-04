@@ -1,7 +1,7 @@
-# fibonacci calculator optimization
-Implementing the fibonacci calculator using 3 different approaches and analyzing the difference in number of logic devices used. The calculator has a negative edge asynchronous 
-reset, takes the value of the number of the term in the fibonacci series that needs to be calculated and initialization signal as its input and returns signals done and the 
-output generated.
+# Fibonacci calculator optimization
+Implementing the fibonacci calculator using 3 different approaches and analyzing the difference in number of logic devices used. 
+
+The calculator has a negative edge asynchronous reset, takes the value of the number of the term in the fibonacci series that needs to be calculated and initialization signal as its input and returns signals done and the output generated.
 
 # Drawing a Comparative
 The basic idea behind this project was to firstly create a fibonacci calculator using the FSM Design with 3 different states namely IDLE, COMPUTE and DONE and then later 
