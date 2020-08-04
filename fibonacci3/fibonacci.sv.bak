@@ -1,0 +1,2 @@
+module fibonacci (	input logic clk, reset_n,
+							

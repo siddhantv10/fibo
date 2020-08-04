@@ -1,0 +1,36 @@
+|fibo1
+clk => ~NO_FANOUT~
+reset_n => ~NO_FANOUT~
+input_s[0] => Decoder0.IN4
+input_s[0] => Decoder2.IN3
+input_s[1] => Decoder0.IN3
+input_s[1] => Decoder1.IN3
+input_s[2] => Decoder0.IN2
+input_s[2] => Decoder1.IN2
+input_s[2] => Decoder2.IN2
+input_s[3] => Decoder0.IN1
+input_s[3] => Decoder1.IN1
+input_s[3] => Decoder2.IN1
+input_s[4] => Decoder0.IN0
+input_s[4] => Decoder1.IN0
+input_s[4] => Decoder2.IN0
+begin_fibo => ~NO_FANOUT~
+fibo_out[0] <= WideOr15.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[1] <= WideOr14.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[2] <= WideOr13.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[3] <= WideOr12.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[4] <= WideOr11.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[5] <= WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[6] <= WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[7] <= WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[8] <= WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[9] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[10] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[11] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[12] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[13] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[14] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+fibo_out[15] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+done <= <VCC>
+
+

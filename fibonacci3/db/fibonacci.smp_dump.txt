@@ -1,0 +1,6 @@
+
+State Machine - |fibonacci|state
+Name state.IDLE state.DONE state.COMPUTE 
+state.IDLE 0 0 0 
+state.COMPUTE 1 0 1 
+state.DONE 1 1 0 
